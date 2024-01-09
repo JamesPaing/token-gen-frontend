@@ -11,7 +11,7 @@ const CustomSubmitButton: React.FC<ComProps> = ({ isPending, isDisabled }) => {
         <button
             disabled={isDisabled}
             type="submit"
-            className="bg-blue-600 flex items-center w-32 justify-center text-white rounded-sm shadow-sm p-2 mt-8"
+            className="flex items-center justify-center w-32 p-2 mt-8 text-white bg-blue-600 rounded-sm shadow-sm"
             data-dismiss="modal"
         >
             {isPending && (
